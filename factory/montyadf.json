@@ -1,0 +1,9 @@
+{
+	"name": "montyadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f4dadf0f-05d7-40cd-b8ff-e138e90d10e2",
+		"tenantId": "b2949569-59c6-4c9c-85c1-8dc05a73c43d"
+	}
+}
