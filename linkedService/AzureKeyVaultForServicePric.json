@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultForServicePric",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://keyvaultmanoj.vault.azure.net/"
+		}
+	}
+}
