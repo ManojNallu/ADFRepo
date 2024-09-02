@@ -1,0 +1,21 @@
+{
+	"name": "AzureDataLakeStorage2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://montyadlsgen22.dfs.core.windows.net/",
+			"tenant": "b2949569-59c6-4c9c-85c1-8dc05a73c43d",
+			"servicePrincipalId": "374f2cd2-fcc2-4135-99ed-fbefa9cf845e",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultForServicePric",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "monty-SP-Sec"
+			}
+		}
+	}
+}
