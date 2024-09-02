@@ -16,6 +16,7 @@
 				},
 				"secretName": "monty-SP-Sec"
 			}
-		}
+		},
+		"description": "for service pricipal"
 	}
 }
